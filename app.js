@@ -21,8 +21,8 @@ if (skip) {
 }
 let Questions = [];
 Questions[0] = prompt(" Do you speak English?");
-Questions[1] = prompt("Do you like Yellow ?");
-Questions[2] = prompt("Do you like Black ?");
+Questions[1] = prompt("Do you speak Turkish?");
+Questions[2] = prompt("Do you speak German?");
 
 for (let i = 0; i < 3; i++) {
       switch (Questions[i]) {
